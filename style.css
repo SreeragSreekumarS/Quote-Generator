@@ -34,7 +34,7 @@ u {
 .inner-div{
     background: white;
     width: 786px;
-    height: 302px;
+    height: 400px;
     margin-left: 401px;
     margin-top: 58px;
     border-radius: 26px; 
@@ -47,15 +47,27 @@ u {
 }
 
 #btn{
-    position: absolute;
-    margin-top: 186px;
-    margin-left: 301px;
-    width: 201px;
-    height: 34px;
+    margin-left: 341px;
     border-radius: 21px;
     color: white;
     font-size: 20px;
     background: #6e6e97;
     font-family: 'Dancing Script', cursive;
     font-family: 'Pacifico', cursive;
+}
+
+#tb{
+    font-size: 30px;
+    margin-left: 37px;
+    margin-right: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+.text-area{
+    height: 328px;
+}
+
+.btn-area{
+    height: 70px;
 }
