@@ -20,11 +20,14 @@ quotes[17]="Happiness is not the absence of problems, it's the ability to deal w
 quotes[18]="The only way of discovering the limits of the possible is to venture a little way past them into the impossible.";
 quotes[19]="Be brave to stand for what you believe in even if you stand alone.";
 
-var i = Math.floor(Math.random() * 20) + 1;
+
+let btn = document.getElementById("btn"); 
+let textbox = document.getElementById("tb");
 
 function onClick(){
-    
+    var i = Math.floor(Math.random() * 20) + 1;
+    textbox.innerHTML = quotes[i];
 }
 
-btn.addEventListener("click",onclick);
+btn.addEventListener("click",onClick);
 
