@@ -22,5 +22,9 @@ quotes[19]="Be brave to stand for what you believe in even if you stand alone.";
 
 var i = Math.floor(Math.random() * 20) + 1;
 
+function onClick(){
+    
+}
 
+btn.addEventListener("click",onclick);
 
